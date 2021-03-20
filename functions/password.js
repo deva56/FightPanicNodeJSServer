@@ -68,7 +68,7 @@ exports.resetPasswordInit = email =>
 		.then(user => {
  
 			const transporter = nodemailer.createTransport({
-				host: "smtp.mailtrap.io",
+				host: "smtp.gmail.com",
 				port: 587,
 				secure: false, 
 				auth: {
